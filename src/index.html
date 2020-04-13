@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt0-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript v1 </title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./scripts/calculadora.js"></script>
+</head>
+<body>
+    <div id="topo"><h1>Calculado </h1>
+       <p>JavaScript V1</p></div>
+    <div id="corpo-calc">
+        <div class="visor"></div>
+        <div class="teclas">
+            <div class="botoes">
+                <button class="tecla" onclick="pressNumber(this)">1</button>
+                <button class="tecla" onclick="pressNumber(this)">2</button>
+                <button class="tecla" onclick="pressNumber(this)">3</button>
+                <button class="tecla" onclick="pressOperadores(this)">+</button>
+            </div>
+            <div class="botoes">
+                <button class="tecla" onclick="pressNumber(this)">4</button>
+                <button class="tecla" onclick="pressNumber(this)">5</button>
+                <button class="tecla" onclick="pressNumber(this)">6</button>
+                <button class="tecla" onclick="pressOperadores(this)">-</button>
+                
+            </div>
+            <div class="botoes">
+                <button class="tecla" onclick="pressNumber(this)">7</button>
+                <button class="tecla" onclick="pressNumber(this)">8</button>
+                <button class="tecla" onclick="pressNumber(this)">9</button>
+                <button class="tecla" onclick="pressOperadores(this)">*</button>
+                
+            </div>
+            <div class="botoes">
+                <button class="tecla" onclick="pressNumber(this)">0</button>
+                <button class="tecla" onclick="pressNumber(this)">.</button>
+                <button class="tecla" onclick="clearAll()">C</button>
+                <button class="tecla" onclick="pressOperadores(this)">/</button>
+            </div>
+            
+        </div>
+        <div class="resultado" ><button class="tecla-inferior" onclick="calcular()">=</button></div>
+    </div>
+    <div class="rodape"><a href="https://www.linkedin.com/in/andreynithack/"><img class="linkedin" src="./rest/linkedin-brands.svg" alt="linkedin"></a><a class="github" href="https://github.com/andreynithack/Caculadora-JavaScript-V1"><img src="./rest/github-square-brands.svg" alt=""></a>
+        
+    </div>
+</body>
+</html>
